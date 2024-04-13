@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+
+
+.login{
+  width: 20%;
+  margin: 40px auto;
+  border: 2px solid black; /* Add a border with 1px width and color #ccc */
+  padding: 10px; /* Add some padding inside the form */
+}
+
+.button {
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* No border */
+  padding: 10px 20px; /* Padding */
+  cursor: pointer; /* Cursor style */
+  border-radius: 5px; /* Border radius */
+}
+
+/* Hover effect */
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.input {
+  border: 1px solid #ccc; /* Border color */
+  padding: 8px; /* Padding */
+  border-radius: 5px; /* Border radius */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+/* Highlighted input */
+.input:focus {
+  border-color: #007bff; /* Highlight color when input is focused */
+}
+
+/* Styling for placeholder text */
+.input::placeholder {
+  color:black; /* Placeholder text color */
+}
