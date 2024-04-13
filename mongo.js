@@ -2,7 +2,7 @@
 
 const mongoose=require("mongoose");
 
-mongoose.connect("mongodb://0.0.0.0:27017/react-login-tut")
+mongoose.connect("mongodb://0.0.0.0:27017/Scalar")
 .then(()=>{
     console.log("mongodb connected");
 })
